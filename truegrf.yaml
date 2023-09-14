@@ -1,4 +1,7 @@
 description: A new TrueGRF project based on FIRS Steeltown
+grfid: f1c446b6
 license: GPL-2.0
+name: shindustry
 type: industry
+url: https://github.com/kaitokiwa2020/shindustry
 version: 6
