@@ -48,7 +48,10 @@ colour: 1
 fundCostMultiplier: 100
 id: 21
 layout:
-- - - 0
+- - - 2
+    - 1
+  - - 1
+    - 0
 name: Supermarket
 placement: in-town
 probabilityInGame: 5
@@ -64,6 +67,28 @@ tiles:
     drawType: recolour
     sprite:
       filename: industries/supermarket/1.png
+      left: -31
+      top: 0
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 3924
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/supermarket/2.png
+      left: -31
+      top: 0
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 3924
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/supermarket/3.png
       left: -31
       top: 0
 type: tertiary
