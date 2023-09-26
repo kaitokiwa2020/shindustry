@@ -151,16 +151,10 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- CMNT
 - PIPE
-- LYE_
-- STSE
 cargoProduction:
-- SOAP
-- POWR
 - ENSP
-- COAT
-- ZINC
+- POWR
 colour: 37
 fundCostMultiplier: 152
 id: 29

@@ -204,7 +204,7 @@ layout:
 name: Basic Oxygen Furnace
 placement: anywhere
 probabilityInGame: 0
-probabilityMapGen: 5
+probabilityMapGen: 4
 prospectChance: 0
 tiles:
 - sprites:
