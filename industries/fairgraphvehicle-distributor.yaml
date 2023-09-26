@@ -8,10 +8,68 @@ callbacks: |
       cargo iterator
   }
 
+  accept_cargo_types ctt:MEAT [] 1 =
+  accept_cargo_types ctt:VEGE [] 1 =
+  accept_cargo_types ctt:MILK [] 1 =
   accept_cargo_types ctt:FUEL [] 1 =
+  accept_cargo_types ctt:GRAI [] 1 =
+  accept_cargo_types ctt:LVST [] 1 =
   accept_cargo_types ctt:GOOD [] 1 =
-  accept_cargo_types ctt:PUBL [] 1 =
+  accept_cargo_types ctt:FRNT [] 1 =
+  accept_cargo_types ctt:COAL [] 1 =
+  accept_cargo_types ctt:KAOL [] 1 =
+  accept_cargo_types ctt:IORE [] 1 =
+  accept_cargo_types ctt:COPO [] 1 =
+  accept_cargo_types ctt:APAT [] 1 =
+  accept_cargo_types ctt:LEOR [] 1 =
   accept_cargo_types ctt:TUNG [] 1 =
+  accept_cargo_types ctt:SALT [] 1 =
+  accept_cargo_types ctt:SLAG [] 1 =
+  accept_cargo_types ctt:STON [] 1 =
+  accept_cargo_types ctt:CAST [] 1 =
+  accept_cargo_types ctt:SAND [] 1 =
+  accept_cargo_types ctt:WOOD [] 1 =
+  accept_cargo_types ctt:CROL [] 1 =
+  accept_cargo_types ctt:SULP [] 1 =
+  accept_cargo_types ctt:LICO [] 1 =
+  accept_cargo_types ctt:ELCP [] 1 =
+  accept_cargo_types ctt:BATT [] 1 =
+  accept_cargo_types ctt:POWR [] 1 =
+  accept_cargo_types ctt:ALLY [] 1 =
+  accept_cargo_types ctt:ENSP [] 1 =
+  accept_cargo_types ctt:FMSP [] 1 =
+  accept_cargo_types ctt:FDDR [] 1 =
+  accept_cargo_types ctt:BIOM [] 1 =
+  accept_cargo_types ctt:PACK [] 1 =
+  accept_cargo_types ctt:VCPN [] 1 =
+  accept_cargo_types ctt:ADMT [] 1 =
+  accept_cargo_types ctt:PAPE [] 1 =
+  accept_cargo_types ctt:LEAD [] 1 =
+  accept_cargo_types ctt:CU__ [] 1 =
+  accept_cargo_types ctt:AGID [] 1 =
+  accept_cargo_types ctt:FERT [] 1 =
+  accept_cargo_types ctt:SICR [] 1 =
+  accept_cargo_types ctt:ALUM [] 1 =
+  accept_cargo_types ctt:CULL [] 1 =
+  accept_cargo_types ctt:PLAS [] 1 =
+  accept_cargo_types ctt:SCMT [] 1 =
+  accept_cargo_types ctt:CHEM [] 1 =
+  accept_cargo_types ctt:PAIN [] 1 =
+  accept_cargo_types ctt:ACID [] 1 =
+  accept_cargo_types ctt:NAOH [] 1 =
+  accept_cargo_types ctt:CHLO [] 1 =
+  accept_cargo_types ctt:TNT_ [] 1 =
+  accept_cargo_types ctt:ASPH [] 1 =
+  accept_cargo_types ctt:BDMT [] 1 =
+  accept_cargo_types ctt:STEE [] 1 =
+  accept_cargo_types ctt:PIPE [] 1 =
+  accept_cargo_types ctt:GDSP [] 1 =
+  accept_cargo_types ctt:PGEQ [] 1 =
+  accept_cargo_types ctt:PUBL [] 1 =
+  accept_cargo_types ctt:MODE [] 1 =
+  accept_cargo_types ctt:VEHI [] 1 =
+  accept_cargo_types ctt:HESP [] 1 =
+  accept_cargo_types ctt:FOOD [] 1 =
 
   /*
    The following is a replication of what FIRS is doing for a tertiary industry.
@@ -44,10 +102,68 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
+- ACID
+- ADMT
+- AGID
+- NAOH
+- ALLY
+- ALUM
+- APAT
+- BATT
+- BIOM
+- BDMT
+- CAST
+- CHEM
+- CHLO
+- COAL
+- ASPH
+- CU__
+- COPO
+- CROL
+- CULL
+- MILK
+- TNT_
+- ELCP
+- ENSP
+- POWR
+- FMSP
+- FERT
+- FDDR
+- VEGE
 - FUEL
+- FRNT
+- GDSP
 - GOOD
+- GRAI
+- HESP
+- IORE
+- KAOL
+- LEAD
+- LEOR
+- LICO
+- LVST
+- MEAT
+- MODE
+- FOOD
+- PACK
+- PAIN
+- PAPE
+- PIPE
+- PGEQ
 - PUBL
+- SALT
+- SAND
+- SCMT
+- SICR
+- SLAG
+- STEE
+- STON
+- SULP
 - TUNG
+- VCPN
+- VEHI
+- PLAS
+- WOOD
 cargoProduction: []
 colour: 207
 fundCostMultiplier: 8
