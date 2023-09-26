@@ -19,10 +19,8 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:SALT [] 8 =
-  prod_cargo_types ctt:ACID [] 4 =
-  prod_cargo_types ctt:CHLO [] 2 =
-  prod_cargo_types ctt:LYE_ [] 2 =
+  accept_cargo_types ctt:ACID [] 8 =
+  prod_cargo_types ctt:ADMT [] 8 =
 
 
   /*
@@ -98,11 +96,9 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- SALT
-cargoProduction:
 - ACID
-- CHLO
-- LYE_
+cargoProduction:
+- ADMT
 colour: 191
 fundCostMultiplier: 170
 id: 7

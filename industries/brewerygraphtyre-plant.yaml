@@ -19,11 +19,9 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:RUBR [] 2 =
-  accept_cargo_types ctt:CBLK [] 2 =
-  accept_cargo_types ctt:SULP [] 2 =
-  accept_cargo_types ctt:STWR [] 2 =
-  prod_cargo_types ctt:TYRE [] 8 =
+  accept_cargo_types ctt:GRAI [] 6 =
+  accept_cargo_types ctt:PACK [] 2 =
+  prod_cargo_types ctt:FOOD [] 8 =
 
 
   /*

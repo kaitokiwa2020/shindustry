@@ -43,7 +43,6 @@ callbacks: |
   supply_requirement 8 =
 
   accept_cargo_types ctt:ENSP [] 1 =
-  prod_cargo_types ctt:SASH [] 16 =
   prod_cargo_types ctt:SALT [] 18 =
 
 
@@ -148,7 +147,6 @@ cargoAcceptance:
 - ENSP
 cargoProduction:
 - SALT
-- SASH
 colour: 169
 fundCostMultiplier: 180
 id: 26
@@ -213,7 +211,7 @@ layout:
   - - 6
     - 5
     - 9
-name: Soda Ash Mine
+name: Soda Ash Mine=
 placement: anywhere
 probabilityInGame: 4
 probabilityMapGen: 7

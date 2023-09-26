@@ -19,12 +19,8 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:STCB [] 4 =
-  accept_cargo_types ctt:ZINC [] 2 =
-  accept_cargo_types ctt:ACID [] 2 =
-  prod_cargo_types ctt:STSH [] 4 =
-  prod_cargo_types ctt:PIPE [] 3 =
-  prod_cargo_types ctt:ENSP [] 1 =
+  accept_cargo_types ctt:ACID [] 8 =
+  prod_cargo_types ctt:ADMT [] 8 =
 
 
   /*
@@ -101,12 +97,8 @@ callbacks: |
   }
 cargoAcceptance:
 - ACID
-- STCB
-- ZINC
 cargoProduction:
-- ENSP
-- PIPE
-- STSH
+- ADMT
 colour: 160
 fundCostMultiplier: 120
 id: 24

@@ -42,7 +42,7 @@ callbacks: |
 
   supply_requirement 8 =
 
-  prod_cargo_types ctt:O2__ [] 14 =
+  prod_cargo_types ctt:MEAT [] 14 =
 
 
   /*
@@ -144,7 +144,7 @@ callbacks: |
   }
 cargoAcceptance: []
 cargoProduction:
-- O2__
+- MEAT
 colour: 189
 fundCostMultiplier: 45
 id: 11
@@ -191,7 +191,7 @@ layout:
     - 4
     - -1
 name: Cryo Plant
-placement: anywhere
+placement: on-water
 probabilityInGame: 4
 probabilityMapGen: 7
 prospectChance: 75

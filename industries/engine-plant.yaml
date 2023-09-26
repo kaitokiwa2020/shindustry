@@ -19,10 +19,8 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:CSTI [] 4 =
-  accept_cargo_types ctt:ALUM [] 2 =
-  accept_cargo_types ctt:SAND [] 2 =
-  prod_cargo_types ctt:VENG [] 6 =
+  accept_cargo_types ctt:ACID [] 8 =
+  prod_cargo_types ctt:ADMT [] 8 =
 
 
   /*
@@ -98,11 +96,9 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- ALUM
-- CSTI
-- SAND
+- ACID
 cargoProduction:
-- VENG
+- ADMT
 colour: 45
 fundCostMultiplier: 120
 id: 13

@@ -44,7 +44,7 @@ callbacks: |
 
   accept_cargo_types ctt:ENSP [] 1 =
   prod_cargo_types ctt:SAND [] 14 =
-  prod_cargo_types ctt:LIME [] 14 =
+  prod_cargo_types ctt:STON [] 14 =
 
 
   /*
@@ -148,7 +148,7 @@ cargoAcceptance:
 - ENSP
 cargoProduction:
 - SAND
-- LIME
+- STON
 colour: 194
 fundCostMultiplier: 210
 id: 23

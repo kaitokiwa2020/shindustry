@@ -19,9 +19,10 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:SLAG [] 8 =
-  prod_cargo_types ctt:CMNT [] 5 =
-  prod_cargo_types ctt:FMSP [] 3 =
+  accept_cargo_types ctt:WOOD [] 8 =
+  prod_cargo_types ctt:FRNT [] 5 =
+  prod_cargo_types ctt:GOOD [] 2 =
+  prod_cargo_types ctt:PACK [] 1 =
 
 
   /*
