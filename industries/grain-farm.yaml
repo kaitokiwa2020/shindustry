@@ -1,5 +1,5 @@
-available: true
-callbacks: |
+available: false
+callbacks: |-
   const type{
       level_requirements dict
       random_prod_factor dict
@@ -28,8 +28,8 @@ callbacks: |
   }
 
   level_requirements 0 [] 100 =
-  level_requirements 16 [] 150 =
-  level_requirements 16 5 * [] 300 =
+  level_requirements 32 [] 200 =
+  level_requirements 32 5 * [] 500 =
 
   random_prod_factor 0 [] 8 =
   random_prod_factor 1 [] 12 =
@@ -42,9 +42,9 @@ callbacks: |
 
   supply_requirement 8 =
 
-  accept_cargo_types ctt:ENSP [] 1 =
-  prod_cargo_types ctt:SALT [] 18 =
-
+  accept_cargo_types ctt:FMSP [] 1 =
+  prod_cargo_types ctt:GRAI [] 14 =
+  prod_cargo_types ctt:BIOM [] 6 =
 
   /*
    The following is a replication of what FIRS is doing for a primary industry.
@@ -92,7 +92,7 @@ callbacks: |
           num_supplies_delivered 26 [] num_supplies_delivered 26 [] industry:cargo_incoming_waiting cargo [] + =
 
           supplied_cycles_remaining_cargo cargo []
-              28
+  28
               supplied_cycles_remaining_cargo cargo []
           industry:cargo_incoming_waiting cargo [] 0 >
           =
@@ -144,187 +144,30 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- ENSP
+- FMSP
 cargoProduction:
-- SALT
-colour: 169
-fundCostMultiplier: 180
-id: 26
+- BIOM
+- GRAI
+colour: 1
+fundCostMultiplier: 160
+id: 0
 layout:
-- - - 3
-    - -1
-    - 2
-    - 1
-  - - 0
-    - 6
-    - 5
-    - 8
-  - - 7
-    - 4
-    - -1
-    - 9
-- - - 3
-    - -1
-    - 2
-  - - 0
-    - 6
-    - 5
-  - - 7
-    - 4
-    - 1
-  - - 0
-    - 9
-    - 8
-  - - 7
-    - 6
-    - 5
 - - - 0
-    - 1
-    - 4
-    - 3
-    - -1
-    - 2
-  - - 7
-    - 8
-    - 0
-    - 3
-    - -1
-    - 2
-  - - -1
-    - 4
-    - 7
-    - 6
-    - 5
-    - 9
-- - - 0
-    - 4
-    - 1
-  - - 7
-    - -1
-    - 8
-  - - 3
-    - -1
-    - 2
-  - - 3
-    - -1
-    - 2
-  - - 6
-    - 5
-    - 9
-name: Soda Ash Mine=
+name: Grain Farm
 placement: anywhere
-probabilityInGame: 4
-probabilityMapGen: 7
+probabilityInGame: 0
+probabilityMapGen: 4
 prospectChance: 75
 tiles:
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 2022
+      id: 3924
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/soda-ash-mine/1.png
+      filename: industries/grain-farm/1.png
       left: -31
-      top: -88
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      id: 2022
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/soda-ash-mine/2.png
-      left: -31
-      top: -88
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      id: 2022
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/soda-ash-mine/3.png
-      left: -31
-      top: -90
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      id: 2022
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/soda-ash-mine/4.png
-      left: -31
-      top: -74
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      id: 2022
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/soda-ash-mine/5.png
-      left: -31
-      top: -90
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      id: 2022
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/soda-ash-mine/6.png
-      left: -31
-      top: -90
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      id: 2022
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/soda-ash-mine/7.png
-      left: -31
-      top: -90
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      id: 2022
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/soda-ash-mine/8.png
-      left: -31
-      top: -90
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      id: 2022
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/soda-ash-mine/9.png
-      left: -31
-      top: -90
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      id: 2022
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/soda-ash-mine/10.png
-      left: -31
-      top: -90
+      top: -7
 type: primary
