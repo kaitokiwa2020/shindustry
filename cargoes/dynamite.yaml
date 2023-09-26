@@ -1,0 +1,17 @@
+abbreviation: DY
+available: true
+classes: 544
+colour: 244
+id: 53
+label: TNT_
+longName: dynamite
+name: Dynamite
+penaltyLength: 255
+penaltyLowerBound: 0
+price: 4112
+sprite:
+  filename: cargoes/dynamite.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

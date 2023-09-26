@@ -1,12 +1,12 @@
 abbreviation: NA
 available: true
-classes: 16
+classes: 2576
 colour: 69
 id: 35
 label: SALT
 longName: salt
 name: Salt
-penaltyLength: 219
+penaltyLength: 124
 penaltyLowerBound: 36
 price: 3865
 sprite:

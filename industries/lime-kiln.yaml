@@ -19,9 +19,10 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:LIME [] 8 =
-  prod_cargo_types ctt:QLME [] 6 =
-  prod_cargo_types ctt:FMSP [] 2 =
+  accept_cargo_types ctt:FUEL [] 4 =
+  accept_cargo_types ctt:STON [] 4 =
+  prod_cargo_types ctt:BDMT [] 6 =
+  prod_cargo_types ctt:NAOH [] 2 =
 
 
   /*
@@ -97,10 +98,11 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- LIME
+- FUEL
+- STON
 cargoProduction:
-- FMSP
-- QLME
+- NAOH
+- BDMT
 colour: 119
 fundCostMultiplier: 45
 id: 19
@@ -125,7 +127,7 @@ layout:
     - 2
   - - -1
     - -1
-name: Lime Kiln
+name: Lime Kiln=
 placement: anywhere
 probabilityInGame: 1
 probabilityMapGen: 5

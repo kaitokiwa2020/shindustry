@@ -1,0 +1,17 @@
+abbreviation: PT
+available: true
+classes: 544
+colour: 15
+id: 63
+label: PAIN
+longName: painting
+name: Painting
+penaltyLength: 48
+penaltyLowerBound: 24
+price: 5140
+sprite:
+  filename: cargoes/painting.png
+  left: 0
+  top: 0
+unitName: Crates
+weight: 16

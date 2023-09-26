@@ -210,7 +210,7 @@ layout:
     - 3
   - - 5
     - 4
-name: Coal Mine
+name: Coal Mine=
 placement: anywhere
 probabilityInGame: 4
 probabilityMapGen: 10

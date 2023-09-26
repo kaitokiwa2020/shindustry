@@ -43,13 +43,10 @@ callbacks: |
   supply_requirement 8 =
 
   accept_cargo_types ctt:FOOD [] 1 =
-  accept_cargo_types ctt:POTA [] 1 =
-  accept_cargo_types ctt:CHLO [] 1 =
-  prod_cargo_types ctt:MNO2 [] 19 =
-  prod_cargo_types ctt:RUBR [] 16 =
-  prod_cargo_types ctt:PLAS [] 16 =
-  prod_cargo_types ctt:FECR [] 14 =
-  prod_cargo_types ctt:ALUM [] 11 =
+  accept_cargo_types ctt:GOOD [] 1 =
+  prod_cargo_types ctt:COAL [] 16 =
+  prod_cargo_types ctt:COPO [] 16 =
+  prod_cargo_types ctt:IORE [] 14 =
 
 
   /*
@@ -150,15 +147,12 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- CHLO
 - FOOD
-- POTA
+- GOOD
 cargoProduction:
-- ALUM
-- FECR
-- MNO2
-- PLAS
-- RUBR
+- COAL
+- COPO
+- IORE
 colour: 177
 fundCostMultiplier: 152
 id: 5
@@ -283,7 +277,7 @@ layout:
     - -1
     - -1
     - -1
-name: Bulk Terminal
+name: Bulk Terminal=
 placement: on-water
 probabilityInGame: 2
 probabilityMapGen: 6

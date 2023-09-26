@@ -1,0 +1,17 @@
+abbreviation: PK
+available: true
+classes: 544
+colour: 150
+id: 62
+label: PACK
+longName: packaging material
+name: Packaging Material
+penaltyLength: 48
+penaltyLowerBound: 24
+price: 4112
+sprite:
+  filename: cargoes/packaging-material.png
+  left: 0
+  top: 0
+unitName: Crates
+weight: 16

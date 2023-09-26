@@ -1,0 +1,17 @@
+abbreviation: PA
+available: true
+classes: 544
+colour: 15
+id: 46
+label: PAPE
+longName: paper
+name: Paper
+penaltyLength: 250
+penaltyLowerBound: 5
+price: 6044
+sprite:
+  filename: cargoes/paper.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

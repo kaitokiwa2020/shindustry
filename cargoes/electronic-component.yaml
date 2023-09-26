@@ -1,0 +1,17 @@
+abbreviation: EC
+available: true
+classes: 544
+colour: 87
+id: 54
+label: ELCP
+longName: electronic component
+name: Electronic Component
+penaltyLength: 52
+penaltyLowerBound: 20
+price: 8142
+sprite:
+  filename: cargoes/electronic-component.png
+  left: 0
+  top: 0
+unitName: Crates
+weight: 10

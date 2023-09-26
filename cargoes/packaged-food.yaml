@@ -1,0 +1,17 @@
+abbreviation: FD
+available: true
+classes: 132
+colour: 186
+id: 12
+label: FOOD
+longName: packaged food
+name: Packaged Food
+penaltyLength: 48
+penaltyLowerBound: 24
+price: 6908
+sprite:
+  filename: cargoes/packaged-food.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

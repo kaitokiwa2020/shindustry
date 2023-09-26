@@ -1,0 +1,17 @@
+abbreviation: PU
+available: true
+classes: 2
+colour: 111
+id: 43
+label: PUBL
+longName: publications
+name: Publications
+penaltyLength: 48
+penaltyLowerBound: 24
+price: 5674
+sprite:
+  filename: cargoes/publications.png
+  left: 0
+  top: 0
+unitName: Bags
+weight: 6

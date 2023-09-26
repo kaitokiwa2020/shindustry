@@ -1,0 +1,17 @@
+abbreviation: PB
+available: true
+classes: 32
+colour: 12
+id: 49
+label: LEAD
+longName: lead & zinc
+name: Lead & Zinc
+penaltyLength: 243
+penaltyLowerBound: 12
+price: 5181
+sprite:
+  filename: cargoes/lead-zinc.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

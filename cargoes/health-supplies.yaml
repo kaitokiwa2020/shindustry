@@ -1,0 +1,17 @@
+abbreviation: HE
+available: true
+classes: 160
+colour: 207
+id: 58
+label: HESP
+longName: health supplies
+name: Health Supplies
+penaltyLength: 255
+penaltyLowerBound: 0
+price: 6168
+sprite:
+  filename: cargoes/health-supplies.png
+  left: 0
+  top: 0
+unitName: Crates
+weight: 4

@@ -1,0 +1,17 @@
+abbreviation: AK
+available: true
+classes: 784
+colour: 15
+id: 42
+label: NAOH
+longName: alkali
+name: Alkali
+penaltyLength: 48
+penaltyLowerBound: 24
+price: 4688
+sprite:
+  filename: cargoes/alkali.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

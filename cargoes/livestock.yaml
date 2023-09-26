@@ -1,0 +1,17 @@
+abbreviation: LV
+available: true
+classes: 32
+colour: 181
+id: 27
+label: LVST
+longName: livestock
+name: Livestock
+penaltyLength: 225
+penaltyLowerBound: 30
+price: 4770
+sprite:
+  filename: cargoes/livestock.png
+  left: 0
+  top: 0
+unitName: Items
+weight: 16

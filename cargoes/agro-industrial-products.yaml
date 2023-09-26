@@ -1,0 +1,17 @@
+abbreviation: AG
+available: true
+classes: 544
+colour: 62
+id: 47
+label: AGID
+longName: agro-industrial products
+name: Agro-industrial Products
+penaltyLength: 249
+penaltyLowerBound: 6
+price: 4112
+sprite:
+  filename: cargoes/agro-industrial-products.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

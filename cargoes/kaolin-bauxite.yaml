@@ -1,0 +1,17 @@
+abbreviation: KL
+available: true
+classes: 16
+colour: 214
+id: 22
+label: KAOL
+longName: kaolin & bauxite
+name: Kaolin & Bauxite
+penaltyLength: 180
+penaltyLowerBound: 12
+price: 5427
+sprite:
+  filename: cargoes/kaolin-bauxite.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 10

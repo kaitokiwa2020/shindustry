@@ -1,0 +1,17 @@
+abbreviation: TU
+available: true
+classes: 4
+colour: 121
+id: 39
+label: TUNG
+longName: tungsten & precious metals
+name: Tungsten & Precious Metals
+penaltyLength: 58
+penaltyLowerBound: 14
+price: 6168
+sprite:
+  filename: cargoes/tungsten-precious-metals.png
+  left: 0
+  top: 0
+unitName: Bags
+weight: 4

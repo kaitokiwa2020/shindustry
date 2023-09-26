@@ -1,0 +1,17 @@
+abbreviation: FO
+available: true
+classes: 528
+colour: 237
+id: 57
+label: FDDR
+longName: fodder
+name: Fodder
+penaltyLength: 40
+penaltyLowerBound: 0
+price: 4934
+sprite:
+  filename: cargoes/fodder.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

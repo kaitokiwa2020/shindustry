@@ -1,0 +1,17 @@
+abbreviation: DR
+available: true
+classes: 160
+colour: 15
+id: 13
+label: MILK
+longName: diary
+name: Diary
+penaltyLength: 235
+penaltyLowerBound: 20
+price: 4975
+sprite:
+  filename: cargoes/diary.png
+  left: 0
+  top: 0
+unitName: Litres
+weight: 16

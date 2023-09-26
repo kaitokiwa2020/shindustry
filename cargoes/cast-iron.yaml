@@ -1,9 +1,9 @@
 abbreviation: CI
 available: true
 classes: 32
-colour: 141
+colour: 166
 id: 9
-label: CSTI
+label: CAST
 longName: cast iron
 name: Cast Iron
 penaltyLength: 240

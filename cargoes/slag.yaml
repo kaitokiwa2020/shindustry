@@ -8,7 +8,7 @@ longName: slag
 name: Slag
 penaltyLength: 191
 penaltyLowerBound: 64
-price: 3495
+price: 3701
 sprite:
   filename: cargoes/slag.png
   left: 0

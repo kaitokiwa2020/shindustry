@@ -1,0 +1,17 @@
+abbreviation: MO
+available: true
+classes: 32
+colour: 15
+id: 60
+label: MODE
+longName: modern electronics
+name: Modern Electronics
+penaltyLength: 48
+penaltyLowerBound: 24
+price: 6991
+sprite:
+  filename: cargoes/modern-electronics.png
+  left: 0
+  top: 0
+unitName: Crates
+weight: 16

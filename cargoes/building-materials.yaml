@@ -1,0 +1,17 @@
+abbreviation: BD
+available: true
+classes: 528
+colour: 157
+id: 7
+label: BDMT
+longName: building materials
+name: Building Materials
+penaltyLength: 215
+penaltyLowerBound: 40
+price: 4523
+sprite:
+  filename: cargoes/building-materials.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

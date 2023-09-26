@@ -1,0 +1,17 @@
+abbreviation: SN
+available: true
+classes: 16
+colour: 58
+id: 24
+label: STON
+longName: stone
+name: Stone
+penaltyLength: 217
+penaltyLowerBound: 38
+price: 3948
+sprite:
+  filename: cargoes/stone.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

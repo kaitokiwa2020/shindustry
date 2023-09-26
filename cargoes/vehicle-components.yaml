@@ -1,0 +1,17 @@
+abbreviation: VC
+available: true
+classes: 32
+colour: 207
+id: 48
+label: VCPN
+longName: vehicle components
+name: Vehicle Components
+penaltyLength: 56
+penaltyLowerBound: 24
+price: 5510
+sprite:
+  filename: cargoes/vehicle-components.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

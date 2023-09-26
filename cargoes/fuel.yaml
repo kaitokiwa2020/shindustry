@@ -1,0 +1,17 @@
+abbreviation: FL
+available: true
+classes: 544
+colour: 70
+id: 16
+label: FUEL
+longName: fuel
+name: Fuel
+penaltyLength: 50
+penaltyLowerBound: 30
+price: 3988
+sprite:
+  filename: cargoes/fuel.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

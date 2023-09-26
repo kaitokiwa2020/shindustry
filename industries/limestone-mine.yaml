@@ -43,7 +43,7 @@ callbacks: |
   supply_requirement 8 =
 
   accept_cargo_types ctt:ENSP [] 1 =
-  prod_cargo_types ctt:LIME [] 20 =
+  prod_cargo_types ctt:STON [] 20 =
 
 
   /*
@@ -146,7 +146,7 @@ callbacks: |
 cargoAcceptance:
 - ENSP
 cargoProduction:
-- LIME
+- STON
 colour: 69
 fundCostMultiplier: 232
 id: 20
@@ -211,7 +211,7 @@ layout:
   - - 3
     - -1
     - 2
-name: Limestone Mine
+name: Limestone Mine=
 placement: anywhere
 probabilityInGame: 4
 probabilityMapGen: 7

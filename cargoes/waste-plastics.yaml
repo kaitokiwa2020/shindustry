@@ -1,0 +1,17 @@
+abbreviation: PL
+available: true
+classes: 16
+colour: 169
+id: 32
+label: PLAS
+longName: waste plastics
+name: Waste Plastics
+penaltyLength: 136
+penaltyLowerBound: 24
+price: 4235
+sprite:
+  filename: cargoes/waste-plastics.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

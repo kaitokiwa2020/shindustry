@@ -1,0 +1,17 @@
+abbreviation: GS
+available: true
+classes: 32
+colour: 171
+id: 56
+label: GDSP
+longName: gardening supplies
+name: Gardening Supplies
+penaltyLength: 255
+penaltyLowerBound: 0
+price: 4112
+sprite:
+  filename: cargoes/gardening-supplies.png
+  left: 0
+  top: 0
+unitName: Crates
+weight: 16

@@ -1,0 +1,17 @@
+abbreviation: BC
+available: true
+classes: 544
+colour: 94
+id: 5
+label: BATT
+longName: battery cells
+name: Battery Cells
+penaltyLength: 52
+penaltyLowerBound: 20
+price: 5346
+sprite:
+  filename: cargoes/battery-cells.png
+  left: 0
+  top: 0
+unitName: Crates
+weight: 16

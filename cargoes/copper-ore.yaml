@@ -1,0 +1,17 @@
+abbreviation: CO
+available: true
+classes: 16
+colour: 83
+id: 40
+label: COPO
+longName: copper ore
+name: Copper Ore
+penaltyLength: 231
+penaltyLowerBound: 24
+price: 3906
+sprite:
+  filename: cargoes/copper-ore.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

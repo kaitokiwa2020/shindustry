@@ -1,0 +1,17 @@
+abbreviation: AD
+available: true
+classes: 544
+colour: 177
+id: 8
+label: ADMT
+longName: advanced materials
+name: Advanced Materials
+penaltyLength: 241
+penaltyLowerBound: 14
+price: 5222
+sprite:
+  filename: cargoes/advanced-materials.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

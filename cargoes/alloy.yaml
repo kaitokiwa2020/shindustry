@@ -1,0 +1,17 @@
+abbreviation: AL
+available: true
+classes: 32
+colour: 21
+id: 3
+label: ALLY
+longName: alloy
+name: Alloy
+penaltyLength: 235
+penaltyLowerBound: 20
+price: 5263
+sprite:
+  filename: cargoes/alloy.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

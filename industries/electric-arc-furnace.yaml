@@ -19,14 +19,9 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:SCMT [] 4 =
-  accept_cargo_types ctt:FECR [] 2 =
-  accept_cargo_types ctt:QLME [] 1 =
-  accept_cargo_types ctt:O2__ [] 1 =
-  prod_cargo_types ctt:STCB [] 4 =
-  prod_cargo_types ctt:STST [] 2 =
-  prod_cargo_types ctt:SLAG [] 2 =
-
+  accept_cargo_types ctt:FUEL [] 4 =
+  accept_cargo_types ctt:LEOR [] 4 =
+  prod_cargo_types ctt:LEAD [] 4 =
 
   /*
    The following is a replication of what FIRS is doing for a secondary industry.
@@ -101,14 +96,10 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- FECR
-- O2__
-- QLME
-- SCMT
+- FUEL
+- LEOR
 cargoProduction:
-- STCB
-- SLAG
-- STST
+- LEAD
 colour: 186
 fundCostMultiplier: 160
 id: 12
@@ -137,7 +128,7 @@ layout:
     - 3
     - 3
     - 5
-name: Electric Arc Furnace
+name: Electric Arc Furnace=
 placement: anywhere
 probabilityInGame: 1
 probabilityMapGen: 5

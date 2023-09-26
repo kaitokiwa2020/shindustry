@@ -1,0 +1,17 @@
+abbreviation: EM
+available: true
+classes: 544
+colour: 198
+id: 17
+label: POWR
+longName: engines & motors
+name: Engines & Motors
+penaltyLength: 248
+penaltyLowerBound: 7
+price: 6168
+sprite:
+  filename: cargoes/engines-motors.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

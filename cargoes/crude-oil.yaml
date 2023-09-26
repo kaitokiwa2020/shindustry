@@ -1,0 +1,17 @@
+abbreviation: OL
+available: true
+classes: 64
+colour: 59
+id: 51
+label: CROL
+longName: crude oil
+name: Crude Oil
+penaltyLength: 255
+penaltyLowerBound: 0
+price: 3948
+sprite:
+  filename: cargoes/crude-oil.png
+  left: 0
+  top: 0
+unitName: Litres
+weight: 16

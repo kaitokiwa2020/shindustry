@@ -1,7 +1,7 @@
-abbreviation: OR
+abbreviation: IO
 available: true
 classes: 16
-colour: 8
+colour: 181
 id: 23
 label: IORE
 longName: iron ore

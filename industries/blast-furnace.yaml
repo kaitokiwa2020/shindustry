@@ -20,11 +20,10 @@ callbacks: |
   }
 
   accept_cargo_types ctt:IORE [] 3 =
-  accept_cargo_types ctt:COKE [] 3 =
-  accept_cargo_types ctt:LIME [] 2 =
-  prod_cargo_types ctt:IRON [] 4 =
-  prod_cargo_types ctt:CSTI [] 2 =
-  prod_cargo_types ctt:SLAG [] 2 =
+  accept_cargo_types ctt:FUEL [] 3 =
+  accept_cargo_types ctt:STON [] 2 =
+  prod_cargo_types ctt:CSTI [] 4 =
+  prod_cargo_types ctt:SLAG [] 4 =
 
 
   /*
@@ -100,12 +99,11 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- COKE
+- FUEL
 - IORE
-- LIME
+- STON
 cargoProduction:
-- CSTI
-- IRON
+- CAST
 - SLAG
 colour: 10
 fundCostMultiplier: 190
@@ -175,7 +173,7 @@ layout:
     - -1
     - 3
     - 0
-name: Blast Furnace
+name: Blast Furnace=
 placement: anywhere
 probabilityInGame: 0
 probabilityMapGen: 3

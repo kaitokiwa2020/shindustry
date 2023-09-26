@@ -8,7 +8,7 @@ longName: vehicles
 name: Vehicles
 penaltyLength: 128
 penaltyLowerBound: 15
-price: 6743
+price: 6744
 sprite:
   filename: cargoes/vehicles.png
   left: 0

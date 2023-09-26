@@ -1,0 +1,17 @@
+abbreviation: FR
+available: true
+classes: 544
+colour: 168
+id: 29
+label: FRNT
+longName: furniture
+name: Furniture
+penaltyLength: 235
+penaltyLowerBound: 20
+price: 5551
+sprite:
+  filename: cargoes/furniture.png
+  left: 0
+  top: 0
+unitName: Crates
+weight: 16

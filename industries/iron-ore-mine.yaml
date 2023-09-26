@@ -167,7 +167,7 @@ layout:
     - 4
     - 6
     - 5
-name: Iron Ore Mine
+name: Iron Ore Mine=
 placement: anywhere
 probabilityInGame: 4
 probabilityMapGen: 10
