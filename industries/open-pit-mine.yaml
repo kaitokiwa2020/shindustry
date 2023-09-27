@@ -44,7 +44,7 @@ callbacks: |+
 
   accept_cargo_types ctt:ENSP [] 1 =
   prod_cargo_types ctt:COAL [] 14 =
-  prod_cargo_types ctt:STON [] 14 =
+  prod_cargo_types ctt:STON [] 12 =
 
   /*
    The following is a replication of what FIRS is doing for a primary industry.
