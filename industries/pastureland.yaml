@@ -1,4 +1,4 @@
-available: false
+available: true
 callbacks: |
   const type{
       level_requirements dict

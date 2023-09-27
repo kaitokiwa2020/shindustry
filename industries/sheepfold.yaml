@@ -1,5 +1,5 @@
 available: true
-callbacks: |-
+callbacks: |+
   const type{
       level_requirements dict
       random_prod_factor dict
@@ -43,8 +43,9 @@ callbacks: |-
   supply_requirement 8 =
 
   accept_cargo_types ctt:FMSP [] 1 =
-  prod_cargo_types ctt:GRAI [] 14 =
-  prod_cargo_types ctt:BIOM [] 6 =
+  prod_cargo_types ctt:AGID [] 12 =
+  prod_cargo_types ctt:LVST [] 14 =
+
 
   /*
    The following is a replication of what FIRS is doing for a primary industry.
@@ -143,19 +144,21 @@ callbacks: |-
   cb:production_change_random def{
       result:value 0 =
   }
+
+
 cargoAcceptance:
 - FMSP
 cargoProduction:
-- BIOM
-- GRAI
+- AGID
+- LVST
 colour: 1
 fundCostMultiplier: 160
-id: 0
+id: 5
 layout:
 - - - 0
-name: Grain Farm
+name: Sheepfold
 placement: anywhere
-probabilityInGame: 0
+probabilityInGame: 1
 probabilityMapGen: 4
 prospectChance: 75
 tiles:
@@ -167,7 +170,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/grain-farm/1.png
+      filename: industries/sheepfold/1.png
       left: -31
       top: -7
 type: primary
