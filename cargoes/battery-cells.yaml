@@ -1,14 +1,14 @@
-abbreviation: BC
+abbreviation: BA
 available: true
 classes: 544
-colour: 94
-id: 5
+colour: 194
+id: 28
 label: BATT
 longName: battery cells
 name: Battery Cells
-penaltyLength: 52
-penaltyLowerBound: 20
-price: 5346
+penaltyLength: 44
+penaltyLowerBound: 22
+price: 5592
 sprite:
   filename: cargoes/battery-cells.png
   left: 0

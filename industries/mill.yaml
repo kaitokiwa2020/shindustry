@@ -106,8 +106,8 @@ cargoAcceptance:
 - GRAI
 - PACK
 cargoProduction:
-- FOOD
 - FDDR
+- FOOD
 colour: 1
 fundCostMultiplier: 100
 id: 9

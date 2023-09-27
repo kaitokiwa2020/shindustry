@@ -151,7 +151,7 @@ cargoProduction:
 - VEGE
 - GRAI
 colour: 1
-fundCostMultiplier: 100
+fundCostMultiplier: 160
 id: 8
 layout:
 - - - 0

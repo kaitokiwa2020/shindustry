@@ -1,14 +1,14 @@
 abbreviation: GD
 available: true
 classes: 544
-colour: 194
-id: 28
+colour: 94
+id: 5
 label: GOOD
 longName: goods
 name: Goods
-penaltyLength: 44
-penaltyLowerBound: 22
-price: 5592
+penaltyLength: 52
+penaltyLowerBound: 20
+price: 5346
 sprite:
   filename: cargoes/goods.png
   left: 0
