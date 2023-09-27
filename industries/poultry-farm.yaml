@@ -44,8 +44,8 @@ callbacks: |+
 
   accept_cargo_types ctt:FMSP [] 1 =
   prod_cargo_types ctt:AGID [] 12 =
-  prod_cargo_types ctt:LVST [] 14 =
-
+  prod_cargo_types ctt:BIOM [] 6 =
+  prod_cargo_types ctt:LVST [] 10 =
 
   /*
    The following is a replication of what FIRS is doing for a primary industry.
@@ -145,18 +145,18 @@ callbacks: |+
       result:value 0 =
   }
 
-
 cargoAcceptance:
 - FMSP
 cargoProduction:
 - AGID
+- BIOM
 - LVST
 colour: 1
 fundCostMultiplier: 160
-id: 5
+id: 6
 layout:
 - - - 0
-name: Sheepfold
+name: Poultry Farm
 placement: anywhere
 probabilityInGame: 0
 probabilityMapGen: 4
@@ -170,7 +170,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/sheepfold/1.png
+      filename: industries/poultry-farm/1.png
       left: -31
       top: -7
 type: primary

@@ -19,11 +19,13 @@ callbacks: |+
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:VEGE [] 2 =
-  accept_cargo_types ctt:MEAT [] 2 =
-  accept_cargo_types ctt:PACK [] 2 =
-  accept_cargo_types ctt:SALT [] 2 =
-  prod_cargo_types ctt:FOOD [] 8 =
+
+
+  accept_cargo_types ctt:LVST [] 8 =
+  prod_cargo_types ctt:MEAT [] 8 =
+
+
+
 
 
   /*
@@ -100,18 +102,15 @@ callbacks: |+
   }
 
 cargoAcceptance:
-- VEGE
-- MEAT
-- PACK
-- SALT
+- LVST
 cargoProduction:
-- FOOD
+- MEAT
 colour: 1
 fundCostMultiplier: 100
-id: 4
+id: 10
 layout:
 - - - 0
-name: Cannery
+name: Abattoirs
 placement: anywhere
 probabilityInGame: 0
 probabilityMapGen: 5
@@ -125,7 +124,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/cannery/1.png
+      filename: industries/abattoirs/1.png
       left: -31
       top: -7
 type: secondary

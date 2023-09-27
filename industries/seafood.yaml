@@ -152,9 +152,9 @@ id: 3
 layout:
 - - - 0
 name: Seafood
-placement: anywhere
+placement: on-water
 probabilityInGame: 0
-probabilityMapGen: 4
+probabilityMapGen: 6
 prospectChance: 75
 tiles:
 - sprites:
