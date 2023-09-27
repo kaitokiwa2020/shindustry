@@ -154,7 +154,7 @@ fundCostMultiplier: 200
 id: 11
 layout:
 - - - 1
-    - -1
+    - 2
     - 0
 name: Open Pit Mine
 placement: anywhere
@@ -186,4 +186,15 @@ tiles:
       filename: industries/open-pit-mine/2.png
       left: -31
       top: -74
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 3924
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/open-pit-mine/3.png
+      left: -31
+      top: 0
 type: primary
