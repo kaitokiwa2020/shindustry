@@ -1,4 +1,4 @@
-available: false
+available: true
 callbacks: |+
   const type{
       level_requirements dict
@@ -150,7 +150,7 @@ cargoProduction:
 - COAL
 - STON
 colour: 1
-fundCostMultiplier: 255
+fundCostMultiplier: 200
 id: 11
 layout:
 - - - 1
