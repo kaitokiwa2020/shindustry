@@ -6,9 +6,9 @@ id: 47
 label: AGID
 longName: agro-industrial products
 name: Agro-industrial Products
-penaltyLength: 249
-penaltyLowerBound: 6
-price: 4112
+penaltyLength: 38
+penaltyLowerBound: 10
+price: 4523
 sprite:
   filename: cargoes/agro-industrial-products.png
   left: 0
